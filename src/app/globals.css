@@ -4,7 +4,7 @@
   --color-primary: #102A6B;
   --color-secondary: #015185;
   --color-accent: #CEA273;
-  --color-background: #FCEDD3;
+  --color-background: #d9eefa;
   --color-muted-blue: #5990C0;
   
   --font-sans: var(--font-jakarta), system-ui, sans-serif;
@@ -12,7 +12,7 @@
 }
 
 :root {
-  --background: #FCEDD3;
+  --background: #d9eefa;
   --foreground: #102A6B;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .glass-nav {
-  background: rgba(252, 237, 211, 0.85);
+  background: rgba(217, 238, 250, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid rgba(206, 162, 115, 0.3);

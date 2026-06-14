@@ -76,7 +76,7 @@ export default function MainPage() {
 
   if (isLoading) {
     return (
-      <div className="w-full max-w-md bg-[#FCEDD3] min-h-screen flex flex-col items-center justify-center p-6 text-[#102A6B]">
+      <div className="w-full max-w-md bg-[#d9eefa] min-h-screen flex flex-col items-center justify-center p-6 text-[#102A6B]">
         <div className="animate-spin mb-4">
           <RefreshCw size={36} className="text-[#015185]" />
         </div>
@@ -126,10 +126,10 @@ export default function MainPage() {
   };
 
   return (
-    <div className="w-full md:max-w-4xl lg:max-w-5xl bg-[#FCEDD3] min-h-screen md:min-h-[85vh] md:my-8 md:rounded-3xl md:shadow-2xl md:border md:border-[#CEA273]/20 relative flex flex-col pb-20 md:pb-8 select-none overflow-hidden mx-auto">
+    <div className="w-full md:max-w-4xl lg:max-w-5xl bg-[#d9eefa] min-h-screen md:min-h-[85vh] md:my-8 md:rounded-3xl md:shadow-2xl md:border md:border-[#CEA273]/20 relative flex flex-col pb-20 md:pb-8 select-none overflow-hidden mx-auto">
       
       {/* Teks Berjalan (Marquee) */}
-      <div className="bg-[#102A6B] text-[#FCEDD3] py-2 text-xs font-semibold overflow-hidden border-b border-[#CEA273]/30 shrink-0 sticky top-0 z-40 shadow-sm">
+      <div className="bg-[#102A6B] text-[#d9eefa] py-2 text-xs font-semibold overflow-hidden border-b border-[#CEA273]/30 shrink-0 sticky top-0 z-40 shadow-sm">
         <div className="whitespace-nowrap inline-block animate-marquee pl-[100%] pr-10">
           {settings.marquee_text}
         </div>
@@ -158,7 +158,7 @@ export default function MainPage() {
         </div>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex items-center gap-2 mt-4 md:mt-0 bg-[#FCEDD3]/40 p-1 rounded-2xl border border-[#CEA273]/20">
+        <div className="hidden md:flex items-center gap-2 mt-4 md:mt-0 bg-[#d9eefa]/40 p-1 rounded-2xl border border-[#CEA273]/20">
           {(["beranda", "event", "registrasi", "faq", "kontak"] as TabType[]).map((tab) => (
             <button
               key={tab}
@@ -207,7 +207,7 @@ export default function MainPage() {
                 <h2 className="text-xl md:text-2xl font-extrabold mt-4 leading-tight tracking-tight">
                   Selamat Datang di Portal Informasi Digital Muslimah
                 </h2>
-                <p className="text-xs text-[#FCEDD3]/80 mt-2 font-medium leading-relaxed">
+                <p className="text-xs text-[#d9eefa]/80 mt-2 font-medium leading-relaxed">
                   Komitmen kami melahirkan muslimah yang tangguh, berkualitas, dan beradab sesuai Al-Qur&apos;an dan As-Sunnah.
                 </p>
                 
@@ -298,7 +298,7 @@ export default function MainPage() {
             {/* Right Column (col-span-2): Warning & Channels */}
             <div className="md:col-span-2 space-y-6">
               {/* Kotak Peringatan Anti-Penipuan */}
-              <div className="border-2 border-[#CEA273] bg-[#FCEDD3]/90 rounded-2xl p-5 shadow-md flex items-start gap-3 relative overflow-hidden">
+              <div className="border-2 border-[#CEA273] bg-[#d9eefa]/90 rounded-2xl p-5 shadow-md flex items-start gap-3 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-2 h-full bg-[#CEA273]" />
                 <div className="bg-red-100 p-2 rounded-xl text-red-600 shrink-0 animate-pulse">
                   <AlertTriangle size={24} />
